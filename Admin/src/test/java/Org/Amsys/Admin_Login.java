@@ -22,7 +22,7 @@ public class Admin_Login
 	{
 		
 		
-		 //*FAQ- Can Manage the downloads and setups easilyyyy*//
+		 //Tejas:*FAQ- Can Manage the downloads and setups easilyyyy*//
 		
 		
 		WebDriver driver = WebDriverManager.chromedriver().create();
