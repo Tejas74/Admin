@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Org.Amsys.Admin_Login">
+      <class name="Org.Amsys.Admin_Home">
         <methods>
-          <include name="Validlogin"/>
+          <include name="home"/>
+          <include name="initialization"/>
         </methods>
-      </class> <!-- Org.Amsys.Admin_Login -->
+      </class> <!-- Org.Amsys.Admin_Home -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
