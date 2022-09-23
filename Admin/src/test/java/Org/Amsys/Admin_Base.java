@@ -23,35 +23,7 @@ public class Admin_Base
 	public void initialization()
 	{
 		
-		int arr[] = {1,3,4,4,10,20};
-		{
-			int high = Integer.MIN_VALUE;
-			int second = Integer.MIN_VALUE;
-			
-			for (int i=0;i<arr.length;i++)
-			{
-				if (arr[i] > high )
-				{
-					second = high ;
-					high = arr[i];
-				}
-				else
-				{
-					if(arr[i] < second && high!=arr[i] )
-					{
-					 //	high = second ;
-						second = high ; 
-					}
-					
-				}
-				System.out.print(second);
-
-
-
-			}
-			
-			
-		}
+		
 		WebDriver driver = WebDriverManager.chromedriver().create();
 		driver.get("https://www.saucedemo.com"); //*FAQ- Wait until the page load*//
 		//Actions  aa = new Actions();
