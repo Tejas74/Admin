@@ -26,9 +26,6 @@ public class Admin_Base
 		
 		WebDriver driver = WebDriverManager.chromedriver().create();
 		driver.get("https://www.saucedemo.com"); //*FAQ- Wait until the page load*//
-		//Actions  aa = new Actions();
-		//driver.findElement(By.id(null)).sendKeys(keys.rig)
-	//	driver.getWindowHandle().
 		//driver.navigate().to("https://www.saucedemo.com");//*FAQ- Cannot wait for page load and maintains browser history and cookies *//
 		try {
 			Thread.sleep(1000);
